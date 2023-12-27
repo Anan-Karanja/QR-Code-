@@ -1,0 +1,64 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Poppins:ital,wght@0,100;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,700&display=swap');
+
+ * {
+    font-family: 'Montserrat', sans-serif;
+    /* border: 1px solid; */
+    font-size: 12px;
+ }
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* width: 100%; */
+    background: #cde4ff;
+ }
+
+ .container {
+    text-align: center;
+    /* margin: auto; */
+    height: 490px;
+    width: 310px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 15px;
+
+ }
+/* QR Code Image */
+ .picture img {
+    /* height: 300px; */
+    width: 100%;
+    border-radius: 15px;
+ }
+
+/*! Text Section */
+ .text {
+    text-align: center;
+}
+
+ .text h1 {
+    font-size: 20px;
+ }
+
+ .text p {
+    font-size: 15px;
+ }
+
+.attribution {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   /* width: 100%; */
+}
+
+.attribution a {
+   text-decoration: none;
+   font-weight: 600;
+   color: #056ed0;
+}
+
+.attribution a:hover {
+   text-decoration: underline;
+}
+
